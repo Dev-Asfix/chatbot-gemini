@@ -14,7 +14,6 @@ app.use(express.json());
 // Ruta para manejar la solicitud del chatbot
 app.post('/api/chat', async (req, res) => {
     const userMessage = req.body.message;
-
     try {
         // Llamada a la API de Gemini con la clave API
         const response = await axios.post(
