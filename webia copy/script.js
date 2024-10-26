@@ -4,7 +4,7 @@ var $messages = $('.messages-content'),
 
 $(window).load(function() {
   $messages.mCustomScrollbar();
-  setTimeout(function() {
+  setTimeout(function() { 
     fakeMessage(); // Replace this with bot's actual message later
   }, 100);
 });
