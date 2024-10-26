@@ -47,7 +47,7 @@ app.post('/api/chat', async (req, res) => {
         res.status(500).json({ error: 'Error al conectarse con la API de Gemini' });
     }
 });
-
+  
 
 
 
