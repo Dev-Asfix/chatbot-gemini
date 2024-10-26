@@ -53,12 +53,12 @@ body {
     opacity: 0.2;
   }
 }
-
+ 
 
 .r-nav{    position: absolute;
     right: 9px;
     width: 100px;
-    top: 0px;
+    top: 0px; 
     height: 45px;
     } 
 
